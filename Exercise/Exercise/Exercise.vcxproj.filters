@@ -4,10 +4,25 @@
     <Filter Include="Test">
       <UniqueIdentifier>{ed7dddf3-86ae-4ee7-a079-2d9576ec62d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Test\MultiThread">
+      <UniqueIdentifier>{fb6f28d3-45c8-4a98-bb36-a3f14ba8b344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\ThreadPool">
+      <UniqueIdentifier>{a626bb89-d48a-4322-a63b-e29cb962eeff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MultiThread.cpp">
-      <Filter>Test</Filter>
+      <Filter>Test\MultiThread</Filter>
     </ClCompile>
+    <ClCompile Include="Pool_Thread.cpp">
+      <Filter>Test\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pool_Thread.h">
+      <Filter>Test\ThreadPool</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
