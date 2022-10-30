@@ -10,6 +10,9 @@
     <Filter Include="Test\ThreadPool">
       <UniqueIdentifier>{a626bb89-d48a-4322-a63b-e29cb962eeff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Test\Pair">
+      <UniqueIdentifier>{690b76b7-b361-4b36-8d79-79d0e34b5074}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MultiThread.cpp">
@@ -19,10 +22,16 @@
       <Filter>Test\ThreadPool</Filter>
     </ClCompile>
     <ClCompile Include="Tester.cpp" />
+    <ClCompile Include="CBingoTest.cpp">
+      <Filter>Test\Pair</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pool_Thread.h">
       <Filter>Test\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="CBingoTest.h">
+      <Filter>Test\Pair</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
